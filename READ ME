@@ -1,0 +1,23 @@
+https://ionicframework.com/jp/docs/angular/your-first-app/6-deploying-mobile
+
+Deployement
+
+> capacitor add ios
+[error] cocoapods is not installed. For information: https://guides.cocoapods.org/using/getting-started.html#installation
+[ERROR] An error occurred while running subprocess capacitor.
+
+>>>>> npm i ruby
+
+ERROR:  Error installing cocoapods:
+ERROR: Failed to build gem native extension.
+
+>>>>> sudo gem update --system ECHEC?
+
+ERROR:  While executing gem ... (Errno::EPERM)
+Operation not permitted @ rb_sysopen - /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/gem
+
+>>>>>> sudo gem install -n /usr/local/bin cocoapods -v 1.8.4
+
+ $ ionic cap add ios
+
+ xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
